@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: radial-gradient(circle,#cdededca,#021a4de4);
+
     margin: 0;
     padding: 0;
 }
@@ -13,46 +14,49 @@ h1 {
 .container {
     width: 80%;
     margin: 20px auto;
-    background: #fff;
+    background: #082e2b3e;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(253, 253, 253, 0.984);
     border-radius: 8px;
 }
 
 h2 {
     margin-top: 0;
+    text-align: center;
 }
 
 form {
     margin-bottom: 20px;
+    padding: 15px;
 }
 
 label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 12px;
     font-weight: bold;
+    font-size: larger;
 }
 
 input[type="text"],
 textarea {
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-radius: 4px;
 }
 
 button {
     padding: 10px 15px;
-    background-color: #007bff;
+    background-color: #02211f;
     color: #fff;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #92d0d9;
 }
 
 #result {
@@ -62,3 +66,14 @@ button:hover {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+#evaluate-rule-form select,
+#evaluate-rule-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #fff;
+} 
